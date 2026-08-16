@@ -25,12 +25,25 @@ plantcare-vl-pro/
 │   └── prompts.py              # 系统提示词
 ├── scripts/
 │   └── start_model_server.ps1  # 启动 llama.cpp 服务端
+├── data/
+│   └── curated_v1/             # 微调数据集（944 张图，train/val/test 划分）
 ├── models/                     # 模型权重说明
 ├── SHA256SUMS.txt              # GGUF 文件 SHA256 校验和
 ├── LICENSE                     # Apache 2.0
 ├── ATTRIBUTION.md              # 技术归属和引用
 └── README.md
 ```
+
+## 数据集
+
+`data/curated_v1/` 为视觉分类微调数据集：
+
+- 图片 944 张：plant_healthy 207 / plant_abnormal 252 / non_plant 405 / uncertain 80
+- 划分：训练 750 / 验证 95 / 测试 99
+- 提供 LlamaFactory 与 ShareGPT 两种格式（train/validation/test）
+- 来源：PlantDoc 与 PASS（CC BY 4.0）、免费图库、人工补充
+
+详见 [`data/curated_v1/README.md`](data/curated_v1/README.md)。
 
 ## 模型权重
 

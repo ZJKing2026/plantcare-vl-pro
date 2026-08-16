@@ -1,0 +1,22 @@
+{
+  "total": 944,
+  "categories": {
+    "plant_healthy": 207,
+    "plant_abnormal": 252,
+    "non_plant": 405,
+    "uncertain": 80
+  },
+  "splits": {
+    "train": 750,
+    "validation": 95,
+    "test": 99
+  },
+  "removed_tiny": [
+    "non_plant_0187",
+    "non_plant_0361"
+  ],
+  "removed_near_duplicates": [
+    "plant_abnormal_0125",
+    "plant_abnormal_0222"
+  ]
+}
