@@ -36,7 +36,7 @@ plantcare-vl-pro/
 
 微调后的 GGUF 模型文件因体积较大，托管在 Hugging Face：
 
-**[Hugging Face 模型仓库 →]()**（待上传）
+**[Hugging Face 模型仓库 →](https://huggingface.co/ZJKing2026/plantcare-vl-pro)**
 
 两个 GGUF 文件必须配套使用：
 
