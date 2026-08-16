@@ -1,2 +1,3 @@
 c235181e5bdb581e195a31663ad3802315bfca0f24b1eb3762b978bd5c78e961  plantcare-qwen3vl-4b-formal-v1-q4_k_m.gguf
 0d8f37e61ca0fb28ef7779b3907c5b1b2d99d34b3553353808734b3a6a426c05  mmproj-plantcare-qwen3vl-4b-formal-v1-f16.gguf
+8b650946f08f170cc6f29c5b5acde43bc3d8c56761913d034005648dd2eaebe6  plant-care-qwen3vl4b-lora-formal-v1.tar.gz

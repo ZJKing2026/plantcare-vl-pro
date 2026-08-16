@@ -57,6 +57,7 @@ plantcare-vl-pro/
 |------|------|
 | `plantcare-qwen3vl-4b-formal-v1-q4_k_m.gguf` | 语言模型（Q4_K_M 量化） |
 | `mmproj-plantcare-qwen3vl-4b-formal-v1-f16.gguf` | 视觉投影层（FP16） |
+| `plant-care-qwen3vl4b-lora-formal-v1.tar.gz` | QLoRA 适配器权重（含 adapter_model.safetensors） |
 
 下载后放入本地 `models/qwen3vl-4b-formal-v1/` 目录，并用 `SHA256SUMS.txt` 校验完整性。
 
