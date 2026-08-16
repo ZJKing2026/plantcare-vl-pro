@@ -1,0 +1,14 @@
+# 模型权重
+models/**/*.gguf
+models/qwen3vl-4b-formal-v1/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 运行时
+runtime/
+*.log
+*.pid
